@@ -1,0 +1,103 @@
+.hero-image{background-image: url(project2.jpg);
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+height: 400px;
+
+}
+
+
+body{background-color: #E5E5E5;
+    font-family: Poppins;
+font-style: normal;
+
+
+}
+
+.no{color: white;
+    background-color:#936A4A;
+    border-radius: 3px;
+    margin-left: 8px;
+    padding: 1px 5px;
+
+}
+
+::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    
+    
+    
+    color: rgba(0, 0, 0, 0.12);}
+.nav-item{padding: 4px 180px;
+    
+    border: 1px solid #936A4A;
+}
+
+.nav-link{border-bottom:3px solid #936A4A;}
+.badge{padding: 7px 25px;
+    font-size: 10px;
+    color: #936A4A;
+    
+    background-color:white;
+}
+
+a:link {color: #936A4A;
+    text-decoration: none;}
+    a:hover{text-decoration: underline;}
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{width: 200%;}
+  }
+  
+
+ 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {body{width: 170%;}
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {body{width: 100%;}}
+
+ 
+  
+   /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav-item{padding: 2px 30px;
+        width: 33.3%;
+        border: 1px solid #936A4A;
+
+    }
+  }
+
+
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {.nav-item{width: 33.3%;
+    padding: 2px 170px;
+}
+}
+
+ 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 768px) {
+    iframe{height: 130%;
+
+    }
+  }
+
+  .data-toggle{border: 1px solid #936A4A;}
+
+   /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {.dog{width: 35%;
+    
+}
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 768px) {
+    .dog{width: 40%}
+  }
+
+ .nav-link:hover{border-bottom:3px solid #936A4A;}
